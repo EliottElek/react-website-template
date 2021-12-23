@@ -4,7 +4,6 @@ import "./Landing.css";
 import screen from "../../assets/images/screen.png";
 import vector1 from "../../assets/images/Vector.png";
 import vector2 from "../../assets/images/Vector2.png";
-import vector3 from "../../assets/images/Vector3.png";
 import Action1 from "../Action1/Action1";
 import Action2 from "../Action2/Action2";
 
