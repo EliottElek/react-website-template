@@ -1,0 +1,38 @@
+@import "../../assets/constants.css";
+
+.hero_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero_text {
+  color: var(--main-text-color);
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 78px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  max-width: 500px;
+  margin-top: 70px;
+}
+.hero_text h1 {
+  text-align: center;
+}
+.hero_text h5 {
+  margin: 8px;
+  text-align: center;
+  color: var(--secondary-text-color);
+  font-style: normal;
+  font-weight: 250;
+  font-size: 24px;
+  line-height: 38px;
+  margin-top: 30px;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+@media screen and (max-width: 700px) {
+  .hero_text {
+    font-size: 1.5rem;
+  }
+}

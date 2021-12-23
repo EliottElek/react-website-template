@@ -1,0 +1,36 @@
+@import "../../../assets/constants.css";
+
+.hamburger_container {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 10;
+}
+.bar {
+  height: 3px;
+  width: 30px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  background-color: var(--main-color);
+  transition: 0.2s ease-in;
+}
+#bar1open {
+  transform: rotate(45deg)translateY(150%);
+  transition: 0.2s ease-in;
+}
+#bar3open {
+  transform: rotate(-45deg) translateY(-150%);
+
+  transition: 0.2s ease-in;
+}
+#bar2open {
+  display: none;
+  transition: 0.2s ease-in;
+}
+@media screen and (max-width: 700px) {
+  .hamburger_container {
+    display: flex;
+  }
+}

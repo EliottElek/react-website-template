@@ -1,0 +1,12 @@
+@import "./assets/constants.css";
+
+body {
+    background: linear-gradient(
+        to bottom,
+        var(--first-gradient-color),
+        var(--second-gradient-color),
+        var(--first-gradient-color)
+      );
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}

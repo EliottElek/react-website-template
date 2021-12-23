@@ -1,0 +1,51 @@
+@import "../../assets/constants.css";
+
+.main_navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  background: transparent;
+}
+.logo_navigation {
+  height: 75px;
+  width: auto;
+}
+.links_list {
+  display: flex;
+  gap: 2rem;
+}
+.links_list li {
+  list-style: none;
+}
+.links_list li a {
+  font-size: 1.1rem;
+  color: var(--main-text-color);
+  text-decoration: none;
+  transition: 0.3s ease-in;
+  border-bottom: solid 2px transparent;
+  padding: 6px;
+}
+.links_list li a:hover {
+  color: var(--main-text-color);
+  border-bottom: solid 2px var(--main-color);
+  transition: 0.3s ease-out;
+}
+@media screen and (max-width: 1000px) {
+  .links_list {
+    display: flex;
+    gap: 1rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .links_list {
+   display: none;
+  }
+  #nav_login {
+    display: none;
+  }
+  .main_navigation {
+    justify-content: space-between;
+    padding: 20px 30px 20px 30px;
+  }
+}
