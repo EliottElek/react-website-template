@@ -10,7 +10,7 @@
 }
 .vector1 {
   position: absolute;
-  top:30%;
+  top: 30%;
   z-index: -1;
   width: 30%;
 }
@@ -19,4 +19,12 @@
   right: 0;
   z-index: -1;
   width: 30%;
+}
+.vector3 {
+  position: absolute;
+  z-index: -1;
+  width: 20%;
+  margin-top: 70%;
+  left: 0;
+  transform: rotate(180deg);
 }

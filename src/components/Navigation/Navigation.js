@@ -12,8 +12,8 @@ const Navigation = ({ links, logo, size }) => {
     <div
       className={
         open
-          ? "mobile_navigation_container"
-          : "mobile_navigation_container hidden"
+          ? "mobile_navigation_container open"
+          : "mobile_navigation_container"
       }
     >
       <ul className="mobile_links_list">

@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
 * {
   --main-color: #01b7f0;
+  --secondary-color: #f3cc00;
   --main-text-color: #102e57;
   --secondary-text-color: #5c5c5c;
   --first-gradient-color: #ffffff;

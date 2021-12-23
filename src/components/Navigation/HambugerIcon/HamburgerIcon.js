@@ -1,7 +1,6 @@
 import React from "react";
 import "./HamburgerIcon.css";
-const HamburgerIcon = ({open, setOpen}) => {
-
+const HamburgerIcon = ({ open, setOpen }) => {
   return (
     <div className="hamburger_container" onClick={() => setOpen(!open)}>
       <div className="bar" id={open ? "bar1open" : "bar1"}></div>
