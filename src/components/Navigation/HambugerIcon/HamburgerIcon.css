@@ -17,11 +17,11 @@
   transition: 0.2s ease-in;
 }
 #bar1open {
-  transform: rotate(45deg)translateY(150%);
+  transform: rotate(45deg)translateY(175%);
   transition: 0.2s ease-in;
 }
 #bar3open {
-  transform: rotate(-45deg) translateY(-150%);
+  transform: rotate(-45deg) translateY(-175%);
 
   transition: 0.2s ease-in;
 }
